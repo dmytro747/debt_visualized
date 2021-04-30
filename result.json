@@ -1,0 +1,354 @@
+[
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/404.js",
+    "fileName": "404.js",
+    "children": [],
+    "fileSize": "1.1 kB",
+    "messages": [
+      {
+        "ruleId": "jsx-a11y/alt-text",
+        "severity": 1,
+        "message": "img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.",
+        "line": 27,
+        "column": 5,
+        "nodeType": "JSXOpeningElement",
+        "endLine": 36,
+        "endColumn": 7
+      }
+    ],
+    "errorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/_app.js",
+    "fileName": "_app.js",
+    "children": [],
+    "fileSize": "2.8 kB",
+    "messages": [
+      {
+        "ruleId": "import/no-extraneous-dependencies",
+        "severity": 1,
+        "message": "'tui-image-editor' should be listed in the project's dependencies. Run 'npm i -S tui-image-editor' to add it",
+        "line": 33,
+        "column": 8,
+        "nodeType": "Literal",
+        "endLine": 33,
+        "endColumn": 52
+      },
+      {
+        "ruleId": "import/no-extraneous-dependencies",
+        "severity": 1,
+        "message": "'tui-color-picker' should be listed in the project's dependencies. Run 'npm i -S tui-color-picker' to add it",
+        "line": 34,
+        "column": 8,
+        "nodeType": "Literal",
+        "endLine": 34,
+        "endColumn": 52
+      },
+      {
+        "ruleId": "no-console",
+        "severity": 1,
+        "message": "Unexpected console statement.",
+        "line": 106,
+        "column": 3,
+        "nodeType": "MemberExpression",
+        "messageId": "unexpected",
+        "endLine": 106,
+        "endColumn": 16
+      },
+      {
+        "ruleId": "react/jsx-props-no-spreading",
+        "severity": 1,
+        "message": "Prop spreading is forbidden",
+        "line": 116,
+        "column": 22,
+        "nodeType": "JSXSpreadAttribute",
+        "messageId": "noSpreading",
+        "endLine": 116,
+        "endColumn": 36
+      }
+    ],
+    "errorCount": 0,
+    "warningCount": 4,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/_document.js",
+    "fileName": "_document.js",
+    "children": [],
+    "fileSize": "745 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/index.js",
+    "fileName": "index.js",
+    "children": [],
+    "fileSize": "472 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/Analytics/index.js",
+    "fileName": "index.js",
+    "children": [],
+    "fileSize": "215 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/DocManager/Maintenance.js",
+    "fileName": "Maintenance.js",
+    "children": [],
+    "fileSize": "246 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/DocManager/Management.js",
+    "fileName": "Management.js",
+    "children": [],
+    "fileSize": "245 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/DocManager/QwikDocs.js",
+    "fileName": "QwikDocs.js",
+    "children": [],
+    "fileSize": "245 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/EAV.js",
+    "fileName": "EAV.js",
+    "children": [],
+    "fileSize": "197 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/Home.js",
+    "fileName": "Home.js",
+    "children": [],
+    "fileSize": "208 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/ProjectNodes/GeoMap.js",
+    "fileName": "GeoMap.js",
+    "children": [],
+    "fileSize": "123 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/ProjectNodes/GeoOverlay.js",
+    "fileName": "GeoOverlay.js",
+    "children": [],
+    "fileSize": "129 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/ProjectNodes/Settings.js",
+    "fileName": "Settings.js",
+    "children": [],
+    "fileSize": "122 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/Slate/index.js",
+    "fileName": "index.js",
+    "children": [],
+    "fileSize": "209 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/SlateTablet/index.js",
+    "fileName": "index.js",
+    "children": [],
+    "fileSize": "136 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/Ticker/index.js",
+    "fileName": "index.js",
+    "children": [],
+    "fileSize": "212 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/campaign/[cid]/Assignments.js",
+    "fileName": "Assignments.js",
+    "children": [],
+    "fileSize": "231 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/campaign/[cid]/Checklists.js",
+    "fileName": "Checklists.js",
+    "children": [],
+    "fileSize": "228 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/campaign/[cid]/Importer.js",
+    "fileName": "Importer.js",
+    "children": [],
+    "fileSize": "229 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/campaign/[cid]/Indicators.js",
+    "fileName": "Indicators.js",
+    "children": [],
+    "fileSize": "228 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/campaign/[cid]/Locations.js",
+    "fileName": "Locations.js",
+    "children": [],
+    "fileSize": "225 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/campaign/[cid]/Workflows.js",
+    "fileName": "Workflows.js",
+    "children": [],
+    "fileSize": "1.6 kB",
+    "messages": [
+      {
+        "ruleId": "max-len",
+        "severity": 1,
+        "message": "This line has a length of 117. Maximum allowed is 100.",
+        "line": 28,
+        "column": 1,
+        "nodeType": "Program",
+        "messageId": "max",
+        "endLine": 28,
+        "endColumn": 118
+      },
+      {
+        "ruleId": "max-len",
+        "severity": 1,
+        "message": "This line has a length of 104. Maximum allowed is 100.",
+        "line": 31,
+        "column": 1,
+        "nodeType": "Program",
+        "messageId": "max",
+        "endLine": 31,
+        "endColumn": 105
+      },
+      {
+        "ruleId": "max-len",
+        "severity": 1,
+        "message": "This line has a length of 121. Maximum allowed is 100.",
+        "line": 33,
+        "column": 1,
+        "nodeType": "Program",
+        "messageId": "max",
+        "endLine": 33,
+        "endColumn": 122
+      }
+    ],
+    "errorCount": 0,
+    "warningCount": 3,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/project/[pid]/index.js",
+    "fileName": "index.js",
+    "children": [],
+    "fileSize": "86 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "path": "/Users/mac1/work/Projects/slate/Slate-App/pages/projects/index.js",
+    "fileName": "index.js",
+    "children": [],
+    "fileSize": "90 B",
+    "messages": [],
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  }
+]
