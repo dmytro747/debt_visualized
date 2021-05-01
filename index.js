@@ -16,6 +16,10 @@ commander
     '-o, --output <path>',
     'Report output path',
   )
+  .option(
+    '-d, --dir <path>',
+    'Base directory',
+  )
   .on('--help', function () {
     console.log('');
     console.log('Examples:');

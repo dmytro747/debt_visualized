@@ -10,9 +10,11 @@ const chalk = require('chalk')
   
    const cwd = path.resolve(__dirname, options.cwd);
    const rootDir = path.resolve(__dirname, directory);
+   const baseDir = path.resolve(__dirname, options.dir);
 
    console.log(`Using ${chalk.blue(cwd)} ESLint working directory`);
    console.log(`Using ${chalk.blue(rootDir)} root directory`);
+   console.log(`Using ${chalk.blue(baseDir)} base directory`);
   
 
   const filesInDir = [];
@@ -46,7 +48,7 @@ const chalk = require('chalk')
 
     Object.assign(tree, dependencyTree({
       filename: file,
-      directory: path.join(__dirname, '..'),
+      directory: baseDir,
       filter: p => p.indexOf('node_modules') === -1 && path.extname(p) !== '.css' && p.indexOf('images') === -1,
       visited,
     }))
@@ -74,7 +76,7 @@ const chalk = require('chalk')
   let newTree = [];
 
 
-  const traverse = (obj, res) => {
+  const traverse = (obj, res, parentName=null, depth=0) => {
     for (let k in obj) {
 
       const { size } = fs.statSync(k);
@@ -84,8 +86,9 @@ const chalk = require('chalk')
       const node = {
         path: k,
         fileName,
-        children: [],
-        fileSize: `${byteSize(size)}`
+        fileSize: `${byteSize(size)}`, 
+        parent: parentName, 
+        depth
       };
 
       if (reportMap[k]) {
@@ -94,8 +97,8 @@ const chalk = require('chalk')
 
       res.push(node);
 
-      if (obj[k] && typeof obj[k] === 'object') {
-        traverse(obj[k], node.children)
+      if (obj[k] && typeof obj[k] === 'object' && Object.keys(obj[k]).length) {
+        traverse(obj[k], res, k, depth + 1)
       }
     }
   }
